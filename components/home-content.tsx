@@ -7,7 +7,7 @@ const HomeContent = () => {
   return (
     <div className="flex flex-col items-center md:items-start">
       <div className="relative">
-        <h1 className="text-4xl md:text-5xl relative  font-bold w-full gap-2 text-center md:text-start">
+        <h1 className="text-4xl md:text-5xl relative  font-bold w-full gap-2 text-center md:text-start bg-gradient-to-r from-rose-300 via-blue-500 to-purple-600 bg-clip-text text-transparent sm:text-5xl">
           Shahrier Hossain
         </h1>
         <svg
@@ -29,16 +29,16 @@ const HomeContent = () => {
           <path d="M17 19h4" />
         </svg>
       </div>
-      <div className="flex gap-2">
-        <Badge variant="default" className="mt-2 ">
+      <div className="flex gap-2 mt-4">
+        <Badge variant="default" className="font-extralight">
           Software Engineer
         </Badge>
-        <Badge variant="outline" className="mt-2 ">
+        <Badge variant="outline" className="font-extralight">
           Data Scientist
         </Badge>
       </div>
-      <div className="mt-4 flex flex-col items-center md:block space-y-4 max-w-[400px] md:max-w-[600px]">
-        <p className="text-l text-muted-foreground text-sm md:text-lg">
+      <div className="mt-6 flex flex-col items-center md:block space-y-2 max-w-[400px] md:max-w-[600px]">
+        <p className="text-muted-foreground text-sm md:text-lg">
           I am a Creative Full stack developer, and I am very passionate and
           dedicated to my work.
         </p>

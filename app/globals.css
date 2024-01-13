@@ -77,3 +77,15 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+.wheel {
+  animation: scroll 2s ease infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(3.75rem);
+  }
+}
