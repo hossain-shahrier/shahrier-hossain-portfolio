@@ -3,7 +3,7 @@ import MaxWidthWrapper from '../max-width-wrapper';
 import Social from '../social';
 import Image from 'next/image';
 import HomeContent from '../home-content';
-import myImage from '../../media/my-image.jpg';
+import myImage from '../../public/images/my-image.jpg';
 const Hero = () => {
   return (
     <section>
